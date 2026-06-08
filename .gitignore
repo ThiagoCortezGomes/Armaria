@@ -1,0 +1,51 @@
+# Sistema / Windows
+Thumbs.db
+Desktop.ini
+
+# IDEs e editores
+.vscode/
+.idea/
+*.suo
+*.user
+*.userossc
+*.sln.docstates
+
+# Logs
+*.log
+php_errors.log
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.bak
+*.swp
+*.orig
+
+# Cache / cobertura
+.phpunit.result.cache
+coverage/
+
+# Ambiente local opcional
+.env
+.env.local
+
+# Artefatos de banco ou exportações locais
+*.sql~
+
+# Credenciais do banco de dados (configure via config/db.example.php)
+config/db.php
+
+# Scripts com dados operacionais reais (não subir para repositório público)
+scripts/import_weapons.php
+
+# Planilhas com dados reais (não subir para repositório público)
+*.xlsx
+*.xls
+*.csv
+
+# Pastas e arquivos temporários gerados localmente
+tmp_*/
+tmp_test_write.txt
+
+# Sessões PHP de testes
+tests/tmp/
